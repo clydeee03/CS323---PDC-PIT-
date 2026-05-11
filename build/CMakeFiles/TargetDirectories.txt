@@ -1,0 +1,3 @@
+C:/Users/flores kyle/Desktop/github/tetris/build/CMakeFiles/distributed_tetris.dir
+C:/Users/flores kyle/Desktop/github/tetris/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/flores kyle/Desktop/github/tetris/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^C:\USERS\FLORES KYLE\DESKTOP\GITHUB\TETRIS\BUILD\CMAKEFILES\E7798BBC0A519E14BA0F2F95A55F7913\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/flores kyle/Desktop/github/tetris" "-BC:/Users/flores kyle/Desktop/github/tetris/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/flores kyle/Desktop/github/tetris/build/DistributedTetris.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
